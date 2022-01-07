@@ -1,0 +1,24 @@
+{
+  "weatherApi": {
+    "method": "GET",
+    "targetURL": "https://api.weatherapi.com",
+    "endpoint": "/v1/current.json?key=7d1845e091e1458785c182851212110&q=Islamabad&aqi=yes",
+    "queryparams": "None",
+    "headers": " {'Accept':'application/json'} ",
+    "authType": "",
+    "username": "",
+    "password": "",
+    "payload": "None"
+  },
+  "AddUserApi": {
+    "method": "POST",
+    "targetURL": "https://jsonplaceholder.typicode.com",
+    "endpoint": "/users",
+    "queryparams": "None",
+    "headers": " {'Accept':'application/json'} ",
+    "authType": "",
+    "username": "",
+    "password": "",
+    "payload": "AddUser.json"
+  }
+}
